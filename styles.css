@@ -109,6 +109,7 @@ footer p {
 
 /* Styling for the Professional Profiles section */
 .prolinks a {
+    text-align: center;
     color: #333; /* Default link color */
     text-decoration: none; /* Remove underline by default */
     margin: 0 5px; /* Add some space between links */
