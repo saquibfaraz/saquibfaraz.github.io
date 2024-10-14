@@ -84,12 +84,12 @@ footer p {
     margin: 0;
 }
 
-#links p {
+#prolinks p {
     text-align: center; /* Center the links */
     font-size: 1.2em; /* Increase the font size for readability */
 }
 
-#links a {
+#prolinks a {
     color: #fff; /* Link color */
     text-decoration: none; /* Remove underline */
     margin: 0 10px; /* Space between links */
