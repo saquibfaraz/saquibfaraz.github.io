@@ -84,16 +84,18 @@ footer p {
     margin: 0;
 }
 
-#prolinks p {
-    text-align: center; /* Center the links */
-    font-size: 1.2em; /* Increase the font size for readability */
+/* Styling for the <nav> links */
+.nav-links a {
+    color: #333; /* Default link color */
+    text-decoration: none; /* Remove underline by default */
+    padding: 0 10px; /* Add some space between the links */
 }
 
-#prolinks a {
-    color: #fff; /* Link color */
-    text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Space between links */
+.nav-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #0073e6; /* Change color on hover (blue) */
 }
+
 
 #links a:hover {
     text-decoration: underline; /* Underline on hover */
@@ -103,6 +105,18 @@ footer p {
     content: "|"; /* Add pipe (|) separator between links */
     margin: 0 10px;
     color: #fff; /* Same color as the text */
+}
+
+/* Styling for the Professional Profiles section */
+.prolinks a {
+    color: #333; /* Default link color */
+    text-decoration: none; /* Remove underline by default */
+    margin: 0 5px; /* Add some space between links */
+}
+
+.prolinks a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #ff6600; /* Change color on hover (orange) */
 }
 
 
