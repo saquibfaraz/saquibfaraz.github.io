@@ -83,3 +83,18 @@ footer {
 footer p {
     margin: 0;
 }
+#links p {
+    text-align: center; /* Center the links */
+    font-size: 1.2em; /* Adjust the font size */
+}
+
+#links a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add space between links */
+}
+
+#links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
