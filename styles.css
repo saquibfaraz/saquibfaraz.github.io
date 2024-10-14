@@ -83,18 +83,26 @@ footer {
 footer p {
     margin: 0;
 }
+
 #links p {
     text-align: center; /* Center the links */
-    font-size: 1.2em; /* Adjust the font size */
+    font-size: 1.2em; /* Increase the font size for readability */
 }
 
 #links a {
-    color: #333; /* Link color */
+    color: #fff; /* Link color */
     text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Add space between links */
+    margin: 0 10px; /* Space between links */
 }
 
 #links a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+#links p a + a:before {
+    content: "|"; /* Add pipe (|) separator between links */
+    margin: 0 10px;
+    color: #fff; /* Same color as the text */
+}
+
 
