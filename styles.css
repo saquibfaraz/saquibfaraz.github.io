@@ -1,7 +1,11 @@
 /* General styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('/mnt/data/background image.avif');
+    background-size: cover; /* Cover the whole screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-attachment: fixed; /* Make the background fixed */
     color: #333;
     margin: 0;
     padding: 0;
@@ -13,6 +17,9 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px;
+    border-radius: 8px;
 }
 
 /* Header styling */
@@ -21,6 +28,7 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    opacity: 0.9; /* Slight transparency to blend with background */
 }
 
 header h1 {
@@ -96,7 +104,6 @@ footer p {
     color: #0073e6; /* Change color on hover (blue) */
 }
 
-
 #links a:hover {
     text-decoration: underline; /* Underline on hover */
 }
@@ -119,5 +126,3 @@ footer p {
     text-decoration: underline; /* Add underline on hover */
     color: #ff6600; /* Change color on hover (orange) */
 }
-
-
