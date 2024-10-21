@@ -17,7 +17,7 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background-color: #025375; /* White background with slight transparency */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
     padding: 20px;
     border-radius: 8px;
 }
