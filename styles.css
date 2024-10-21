@@ -126,3 +126,8 @@ footer p {
     text-decoration: underline; /* Add underline on hover */
     color: #ff6600; /* Change color on hover (orange) */
 }
+
+.custom-color {
+    color: #6be3e6;
+}
+
